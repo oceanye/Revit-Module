@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>External Tool</Name>
+    <Assembly>CreateFamilyManager.dll</Assembly>
+    <ClientId>f4b47fb8-6f09-4ea9-97a4-454da3d531bb</ClientId>
+    <FullClassName>CreateFamilyManager.FamilyManagerUI</FullClassName>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>CreateFamilyManager.dll</Assembly>
+    <ClientId>473518de-d7b4-4ee1-87f0-3107e2fb1ab4</ClientId>
+    <FullClassName>CreateFamilyManager.CreateFrame</FullClassName>
+    <Text>CreateFrame</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>CreateFamilyManager.dll</Assembly>
+    <ClientId>db2db3df-f64e-49f8-868f-39676ab6d362</ClientId>
+    <FullClassName>CreateFamilyManager.CreateFramePreview</FullClassName>
+    <Text>CreateFramePreview</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>CreateFamilyManager.dll</Assembly>
+    <ClientId>7a545c17-1b27-4bf2-b177-095165cbd227</ClientId>
+    <FullClassName>CreateFamilyManager.CreateFrameWPF</FullClassName>
+    <Text>CreateFrameWPF</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>CreateFamilyManager.dll</Assembly>
+    <ClientId>7703ebb4-2fbd-449c-ac93-189f353a7c15</ClientId>
+    <FullClassName>CreateFamilyManager.CreateRelevantRevit</FullClassName>
+    <Text>CreateRelevantRevit</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>CreateFamilyManager.dll</Assembly>
+    <ClientId>363c69b6-ecda-47f4-adcc-dfcd8c0df0b5</ClientId>
+    <FullClassName>CreateFamilyManager.FlushPic</FullClassName>
+    <Text>FlushPic</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
